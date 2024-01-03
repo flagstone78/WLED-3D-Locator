@@ -1,0 +1,26 @@
+<!-- <head>
+    <link rel="stylesheet" href="camera.css">
+</head> -->
+
+<body>
+    <form>
+        <datalist id="commonWLEDurl">
+            <option value="http://192.168.1.228/" label="local"></option>
+            <option value="http://wled-WLED.lan" label="WLED"></option>
+        </datalist>
+        <input type="url" name="wledurl" list="commonWLEDurl" value="http://192.168.1.228/"/>
+        <input type="button" name="button" onclick="getLEDcount(this.form)" value="Get led count">
+        <!-- <button type="button">Test Connection</button> -->
+    </form>
+    <!-- <div class="camera">
+        <video id="video">Video stream not available.</video>
+        <button id="startbutton">Take photo</button>
+    </div>
+    <canvas id="canvas"> </canvas>
+    <div class="output">
+        <img id="photo" alt="The screen capture will appear in this box." />
+    </div> -->
+</body>
+
+<script src="WLED3DLocator.js"></script>
+<!-- <script src="camera.js"></script> -->
